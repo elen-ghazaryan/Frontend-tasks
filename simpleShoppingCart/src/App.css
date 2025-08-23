@@ -1,0 +1,271 @@
+/* Container */
+.container {
+  margin-top: 40px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+}
+
+/* Title */
+h1.display-3 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+/* Product cards */
+.col-md-4 {
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.col-md-4 table {
+  width: 100%;          
+  table-layout: fixed;  
+  word-wrap: break-word; 
+}
+
+.col-md-4 img {
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.col-md-4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+  border-radius: 10px;
+}
+
+/* Buttons */
+.btn-outline-danger {
+  margin-top: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 5px 12px;
+  transition: background 0.2s;
+}
+
+.btn-outline-danger:hover {
+  background: #dc3545;
+  color: white;
+}
+
+/* Basket table */
+.table {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background: #222 !important;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.table td {
+  vertical-align: middle;
+   font-size: 14px;
+}
+
+.table-dark {
+  background-color: #343a40 !important;
+}
+
+.table-border td,
+.table-border th {
+  border-color: #555 !important;
+}
+
+/* Basket buttons */
+.btn-sm {
+  margin-right: 5px;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Basket container */
+.col-md-4 {
+  background: #fafafa;
+  border-left: 2px solid #eee;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Basket title */
+.col-md-4 h2 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Basket table */
+.table {
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.table-dark {
+  background-color: #2c2c2c !important;
+}
+
+.table thead th {
+  background: #111 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  color: #f2f2f2;
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+  position: relative;
+}
+
+/* Hover effect */
+.table thead th:hover {
+  color: #fff; 
+  background: #222; 
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+  border-radius: 4px;
+}
+
+/* Optional underline animation on hover */
+.table thead th::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #4caf50; 
+  left: 50%;
+  bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.table thead th:hover::after {
+  width: 80%;
+  left: 10%;
+}
+
+.table tbody td {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #3a3a3a;
+  color: #f8f9fa;
+}
+
+/* Highlight big totals */
+tr[style] td {
+  background: #444 !important;
+  font-weight: bold;
+  color: #ffd369 !important;
+}
+
+/* Action buttons in basket */
+.table .btn-sm {
+  margin: 0 2px;
+  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  font-size: 13px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.table .btn-outline-success:hover {
+  background: #28a745;
+  color: white;
+}
+
+.table .btn-outline-warning:hover {
+  background: #ffc107;
+  color: black;
+}
+
+.table .btn-outline-danger:hover {
+  background: #dc3545;
+  color: white;
+}
+
+/* Empty basket style */
+.table tbody:empty::after {
+  content: "Your basket is empty 🛒";
+  display: block; 
+  white-space: nowrap;
+  padding: 20px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+/* Basket action buttons */
+.table .btn-sm {
+  margin: 0 4px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* + button */
+.table .btn-outline-success {
+  border: 2px solid #28a745;
+  color: #28a745;
+}
+
+.table .btn-outline-success:hover {
+  background: #28a745;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* - button */
+.table .btn-outline-warning {
+  border: 2px solid #ffc107;
+  color: #ffc107;
+}
+
+.table .btn-outline-warning:hover {
+  background: #ffc107;
+  color: #222;
+  transform: scale(1.1);
+}
+
+/* x button */
+.table .btn-outline-danger {
+  border: 2px solid #dc3545;
+  color: #dc3545;
+}
+
+.table .btn-outline-danger:hover {
+  background: #dc3545;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+
+@media (max-width: 768px) {
+  .table td {
+    font-size: 12px; /* smaller on mobile */
+  }
+}
