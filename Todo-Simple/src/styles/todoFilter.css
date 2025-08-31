@@ -1,0 +1,25 @@
+.todo-filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-filters button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.todo-filters button:hover:not(.active) {
+  background-color: darkgray;
+}
+
+.todo-filters button.active {
+  background-color: green;
+}
