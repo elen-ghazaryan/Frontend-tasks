@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "a6d3",
+      "name": "David",
+      "age": 25,
+      "level": "intern",
+      "salary": 200
+    },
+    {
+      "id": "32f4",
+      "name": "Robert",
+      "age": 20,
+      "level": "middle",
+      "salary": 800
+    },
+    {
+      "id": "7e4c",
+      "name": "Emily",
+      "age": 31,
+      "level": "senior",
+      "salary": 1000
+    },
+    {
+      "id": "4e64",
+      "name": "Susan",
+      "age": 18,
+      "level": "intern",
+      "salary": 200
+    },
+    {
+      "id": "b663",
+      "name": "Jane",
+      "age": 43,
+      "level": "senior",
+      "salary": 1000
+    }
+  ]
+}
