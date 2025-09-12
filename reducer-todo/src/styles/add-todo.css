@@ -1,0 +1,51 @@
+.add-todo {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.add-todo h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #333;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.todo-input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.todo-input:focus {
+  border-color: #4caf50;
+}
+
+.save-btn {
+  padding: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.save-btn:hover {
+  background: #3e9442;
+  transform: scale(1.03);
+}
+
+.error {
+  color: #ff4c4c;
+  font-size: 14px;
+}
